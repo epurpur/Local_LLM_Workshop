@@ -51,14 +51,18 @@ Ollama is an open source project that serves as a powerful and user-friendly pla
 You might be wondering, why would I want to run an LLM directly on my machine?
 
 1. Privacy and Security
+
 By processing information locally, Ollama ensures that your information remains secure and private. According to their [terms of service](https://openai.com/policies/terms-of-use/), OpenAI claims they are not keeping and misusing your data. However, there are concerns about that. UVA licenses [UVA CoPilot](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=8a0050d847fac610bb2b9c7b116d4317), an instance of Microsoft CoPilot, which is probably safer to use. These are negated if you run the LLM yourself!
 
 2. Offline Use
+
 If you have a scenario where the internet is not available, such as use in the field, you can still run your AI models because it is saved on your local machine. Similarly, performance tends to be pretty good which is not always the case for services like ChatGPT.
 
 3. Customizability
+
 When using a sesrvice like ChatGPT, CoPilot, Bard, you **might** have a few options of what model to run. Ollama has a whole [library of models](https://ollama.com/library) to choose from, which can be used for different purposes. Some are general purpose models, some are specific to writing code, some are for creative purposes, some are for text generation, and more.
 
  4. Free
+
 Ollama is free and open source. Paid services like ChatGPT, CoPilot, or Bard usually have a free tier of service but there are limitations to that. No such limits exist if you run it yourself. 
 
