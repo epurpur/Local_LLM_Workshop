@@ -68,5 +68,15 @@ Ollama is free and open source. Paid services like ChatGPT, CoPilot, or Bard usu
 
  5. Environmental Concerns
 
-More info to come.
+[Washington Post article](https://www.washingtonpost.com/business/2024/06/21/artificial-intelligence-nuclear-fusion-climate/)
+
+
+
+### LM Studio
+
+Download and use a "ChatGPT-Like" interface for running your model locally
+
+### Jan.AI
+
+
 
