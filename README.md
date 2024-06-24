@@ -66,3 +66,7 @@ When using a sesrvice like ChatGPT, CoPilot, Bard, you **might** have a few opti
 
 Ollama is free and open source. Paid services like ChatGPT, CoPilot, or Bard usually have a free tier of service but there are limitations to that. No such limits exist if you run it yourself. 
 
+ 5. Environmental Concerns
+
+More info to come.
+
