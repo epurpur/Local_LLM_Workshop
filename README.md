@@ -51,7 +51,7 @@ By processing information locally, Ollama ensures that your information remains 
 
 2. Offline Use
 
-If you have a scenario where the internet is not available, such as use in the field, you can still run your AI models because it is saved on your local machine. Similarly, performance tends to be pretty good which is not always the case for services like ChatGPT.
+At least with Ollama, if you have a scenario where the internet is not available, such as use in the field, you can still run your AI models because it is saved on your local machine. Similarly, performance tends to be pretty good which is not always the case for services like ChatGPT.
 
 3. Customizability
 
