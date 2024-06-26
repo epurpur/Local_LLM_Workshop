@@ -63,7 +63,7 @@ Ollama is free and open source. Paid services like ChatGPT, CoPilot, or Bard usu
 
  5. Environmental Concerns
 
-As the [Washington Post article](https://www.washingtonpost.com/business/2024/06/21/artificial-intelligence-nuclear-fusion-climate/) explains, a massive amount of energy associated with Generative AI is being used today. AI servers are typically housed in large data centers which consume vast amounts of electricity. Training large AI models demands substantial computational power, running GPUs or TPUs (using parallell processing) for days or weeks. The electricity used by data centers often comes from non-renewable energy sources such as coal. Manufacturing the hardware used in electronics requires rare earth metals. And so on...
+As the [Washington Post](https://www.washingtonpost.com/business/2024/06/21/artificial-intelligence-nuclear-fusion-climate/) explains, a massive amount of energy associated with Generative AI is being used today. AI servers are typically housed in large data centers which consume vast amounts of electricity. Training large AI models demands substantial computational power, running GPUs or TPUs (using parallell processing) for days or weeks. The electricity used by data centers often comes from non-renewable energy sources such as coal. Manufacturing the hardware used in electronics requires rare earth metals. And so on...
 
 ## Ollama
 
