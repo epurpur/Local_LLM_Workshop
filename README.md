@@ -74,6 +74,10 @@ Ollama is free and open source. Paid services like ChatGPT, CoPilot, or Bard usu
 
 ### LM Studio
 
+
+
+## Specific LLMs
+
 Download and use a "ChatGPT-Like" interface for running your model locally
 
 ### Jan.AI
