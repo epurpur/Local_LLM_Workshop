@@ -92,6 +92,10 @@ Here are a few common ones that you might encounter.
 
 * [gemma](https://ai.google.dev/gemma) - from Google. A family of lightweight models
 
+##### Quantization and Parameters
+
+You will encounter these terms when looking at the available LLMs and wonder what they are. **Parameters** basically define the behavior of an AI model. An LLM has a few important settings that helps it learn from text including how many words does it remember, how many times does it look at the text, and how much information does it keep track of? In the LLM, parameters are specific values that are adjusted during training to optimize the model's performance. **Quantization** is a strategy to reduce the size and memory usage of an LLM, while striving to maintain quality. It is a compression technique, similar to image compression, to make the LLM more portable and more easily deployed.
+
 
 ### HuggingFace
 
