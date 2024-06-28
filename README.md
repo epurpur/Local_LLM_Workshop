@@ -32,7 +32,7 @@ I am not an AI expert! We are all learning and navigating this confusing landsca
 
 # Background Information 
 ## Large Language Models
-A Large Language Model (LLM) is an artificial intelligence system designed to understand and create human-like content across various media types including text, images, video, etc. These models are trained on extensive datasets of diverse information. Using deep learning techniques, they recognize patterns and relationships within and between different forms of media.
+A Large Language Model (LLM) is an artificial intelligence algorithm that uses deep learning techniques and massive data sets to understand and create human-like content across various media types including text, images, video, etc. These models are trained on extensive datasets of diverse information. Using deep learning techniques, they recognize patterns and relationships within and between different forms of media.
 
 In simpler terms, an LLM is a computer program that has been fed enough examples of human language that it can recognize and interpret human language and other forms of complex data. Many LLMs are trained on data that has been gathered from the internet and the quality of the samples impacts how well the LLM will learn natural language. 
 
@@ -43,11 +43,11 @@ LLMs are composed of large files that contain the parameters and architecture de
 
 ## Why?
 
-You might be wondering, why would I want to run an LLM directly on my machine?
+With services available like ChatGPT and CoPilot, you might be wondering why would you want to run an LLM directly on your own machine?
 
 1. Privacy and Security
 
-By processing information locally, Ollama ensures that your information remains secure and private. According to their [terms of service](https://openai.com/policies/terms-of-use/), OpenAI claims they are not keeping and misusing your data. However, there are concerns about that. UVA licenses [UVA CoPilot](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=8a0050d847fac610bb2b9c7b116d4317), an instance of Microsoft CoPilot, which is probably safer to use. These concerns are negated if you run the LLM yourself!
+By processing information locally, your information remains secure and private. According to their [terms of service](https://openai.com/policies/terms-of-use/), OpenAI claims they are not keeping and misusing your data. However, there are concerns about that. UVA licenses [UVA CoPilot](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=8a0050d847fac610bb2b9c7b116d4317), an instance of Microsoft CoPilot, which is probably safer to use. These concerns are negated if you run the LLM yourself!
 
 2. Offline Use
 
@@ -55,17 +55,21 @@ At least with Ollama, if you have a scenario where the internet is not available
 
 3. Customizability
 
-When using a sesrvice like ChatGPT, CoPilot, Bard, you **might** have a few options of what model to run. [Ollama](https://ollama.com/library), LM Studio, and Jan.AI have a whole library of models to choose from. has a whole [library of models](https://ollama.com/library) to choose from, which can be used for different purposes. Some are general purpose models, some are specific to writing code, some are for creative purposes, some are for text generation, and more.
+When using a service like ChatGPT, CoPilot, Bard, you **might** have a few options of what model to run. [Ollama](https://ollama.com/library), LM Studio, and Jan.AI have a whole library of models to choose from, which can be used for different purposes. Some are general purpose models, some are specific to writing code, some are for creative purposes, some are for text generation, and more.
 
  4. Free
 
-Ollama is free and open source. Paid services like ChatGPT, CoPilot, or Bard usually have a free tier of service but there are limitations to that. No such limits exist if you run it yourself. 
+The tools we will cover today are free and open source. Paid services like ChatGPT, CoPilot, or Bard usually have a free tier of service but there are limitations to that. No such limits exist if you run it yourself. 
 
  5. Environmental Concerns
 
-As the [Washington Post](https://www.washingtonpost.com/business/2024/06/21/artificial-intelligence-nuclear-fusion-climate/) explains, a massive amount of energy associated with Generative AI is being used today. AI servers are typically housed in large data centers which consume vast amounts of electricity. Training large AI models demands substantial computational power, running GPUs or TPUs (using parallell processing) for days or weeks. The electricity used by data centers often comes from non-renewable energy sources such as coal. Manufacturing the hardware used in electronics requires rare earth metals. And so on...
+As the [Washington Post](https://www.washingtonpost.com/business/2024/06/21/artificial-intelligence-nuclear-fusion-climate/) explains, a massive amount of energy associated with Generative AI is being used today. AI servers are typically housed in large data centers which consume vast amounts of electricity. Training large AI models demands substantial computational power, running for days or weeks. The electricity used by data centers often comes from non-renewable energy sources such as coal. Manufacturing the hardware used in electronics requires rare earth metals. And so on...
 
-## Ollama
+ 6.
+
+This is more for developers, but downloading and running your own LLMs locally allow you a way to integrate these into an application you are writing. 
+
+### Ollama
 
 Ollama is an open source project that serves as a powerful and user-friendly platform for running LLMs on your local computer. Ollama simplifies the process of downloading, installing, and interacting with a wide range of LLMs.
 
