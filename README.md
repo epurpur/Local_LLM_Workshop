@@ -1,5 +1,5 @@
 ```
--Last updated 06/21/24
+-Last updated 09/05/24
 ```
 
 # UVA Library Workshop on Running Large Language Models on your local computer
@@ -20,7 +20,12 @@
 
 | Workshop | Date | Time |
 | ---- | ---- | ---- |
-| Intro to Python pt 1                                                |       Tuesday 1/30   |  12:00 - 1:30pm
+| Intro to Python pt 1                                                |       Wednesday 9/4   |  10:00 - 11:30am
+| Intro to Python pt 2                                                |       Wednesday 9/11  |  10:00 - 11:30am
+| Intro to Version Control w/ Git + Github                            |       Wednesday 9/11  |  1:00 - 2:30pm
+| Python Data Analysis + Visualization                                |       Wednesday 9/18  |  10:00 - 11:30am
+| Local Large Language Models                                         |       Wednesday 9/25  |  10:00 - 11:30am
+| Python Web Scraping                                                 |       Wednesday 10/2  |  10:00 - 11:30am
 
 
 ## Things to have before we begin
@@ -43,11 +48,11 @@ LLMs are composed of large files that contain the parameters and architecture de
 
 ## Why?
 
-With services available like ChatGPT and CoPilot, you might be wondering why would you want to run an LLM directly on your own machine?
+With services available like ChatGPT and Copilot, you might be wondering why would you want to run an LLM directly on your own machine?
 
 1. Privacy and Security
 
-By processing information locally, your information remains secure and private. According to their [terms of service](https://openai.com/policies/terms-of-use/), OpenAI claims they are not keeping and misusing your data. However, there are concerns about that. UVA licenses [UVA CoPilot](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=8a0050d847fac610bb2b9c7b116d4317), an instance of Microsoft CoPilot, which is probably safer to use. These concerns are negated if you run the LLM yourself!
+By processing information locally, your information remains secure and private. According to their [terms of service](https://openai.com/policies/terms-of-use/), OpenAI claims they are not keeping and misusing your data. However, there are concerns about that. UVA licenses [UVA Copilot](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=8a0050d847fac610bb2b9c7b116d4317), an instance of Microsoft Copilot, which is probably safer to use. These concerns are negated if you run the LLM yourself!
 
 2. Offline Use
 
@@ -55,36 +60,32 @@ At least with Ollama, if you have a scenario where the internet is not available
 
 3. Customizability
 
-When using a service like ChatGPT, CoPilot, Bard, you **might** have a few options of what model to run. [Ollama](https://ollama.com/library), LM Studio, and Jan.AI have a whole library of models to choose from, which can be used for different purposes. Some are general purpose models, some are specific to writing code, some are for creative purposes, some are for text generation, and more.
+When using a service like ChatGPT, Copilot, Bard, you **might** have a few options of what model to run. [Ollama](https://ollama.com/library), LM Studio, etc have a whole library of models to choose from, which can be used for different purposes. Some are general purpose models, some are specific to writing code, some are for creative purposes, some are for text generation, and more.
 
  4. Free
 
-The tools we will cover today are free and open source. Paid services like ChatGPT, CoPilot, or Bard usually have a free tier of service but there are limitations to that. No such limits exist if you run it yourself. 
+The tools we will cover today are free and open source. Paid services like ChatGPT, Copilot, or Bard usually have a free tier of service but there are limitations to that. No such limits exist if you run it yourself. 
 
  5. Environmental Concerns
 
 As the [Washington Post](https://www.washingtonpost.com/business/2024/06/21/artificial-intelligence-nuclear-fusion-climate/) explains, a massive amount of energy associated with Generative AI is being used today. AI servers are typically housed in large data centers which consume vast amounts of electricity. Training large AI models demands substantial computational power, running for days or weeks. The electricity used by data centers often comes from non-renewable energy sources such as coal. Manufacturing the hardware used in electronics requires rare earth metals. And so on...
 
- 6.
+ 6. Local Development
 
-This is more for developers, but downloading and running your own LLMs locally allow you a way to integrate these into an application you are writing. 
+This is more for developers, but downloading and running your own LLMs locally allow you a way to run them on a local server and integrate into an application you are writing. 
 
-### Ollama
+### [Ollama](https://ollama.com/)
 
 Ollama is an open source project that serves as a powerful and user-friendly platform for running LLMs on your local computer. Ollama simplifies the process of downloading, installing, and interacting with a wide range of LLMs.
 
-### LM Studio
+### [LM Studio](https://lmstudio.ai/)
 
 Download and use a "ChatGPT-Like" interface for running your model locally.
-
-### Jan.AI
 
 
 ### Specific LLMs
 
 Here are a few common ones that you might encounter. 
-
-#### A note about "open" or "open source" models.
 
 * [llama3](https://llama.meta.com/llama3/) - from Meta. Optimized for dialogue/chat use cases and 
 
@@ -96,14 +97,15 @@ Here are a few common ones that you might encounter.
 
 * [gemma](https://ai.google.dev/gemma) - from Google. A family of lightweight models
 
-##### Quantization and Parameters
+##### Parameters
 
-You will encounter these terms when looking at the available LLMs and wonder what they are. **Parameters** basically define the behavior of an AI model. An LLM has a few important settings that helps it learn from text including how many words does it remember, how many times does it look at the text, and how much information does it keep track of? In the LLM, parameters are specific values that are adjusted during training to optimize the model's performance. **Quantization** is a strategy to reduce the size and memory usage of an LLM, while striving to maintain quality. It is a compression technique, similar to image compression, to make the LLM more portable and more easily deployed.
+You will encounter this term when looking at the available LLMs and wonder what they are. To start with an example, think of the parameters like settings on a camera. You can adjust the camera's exposure, brightness, contrast, etc to get the perfect photo. Similarly, in machine learning, the parameters are adjusted within the model to optimize its performance for a specific task. These adjustments help the model learn form data and make better predictions or decisions. The goal is the minimize the difference between the model's output and the actual correct outcome.  
 
+**Parameters** basically define the behavior of an AI model. In the LLM, parameters are specific values that are adjusted during training to optimize the model's performance. When referring to a LLM, we also typically refer to the number of parameters that model contains. For example, ChatGPT contains around 175 billion parameters. This would be a massive file to download and install locally. Local LLMs are typically slimmed down versions of LLMs. There can be several versions of an LLM with different numbers of training parameters. 
 
 ### HuggingFace
 
-Train your own model!
+[Hugging Face](https://huggingface.co/) is an open source data science and machine learning platform. It acts like Github but for AI. It is a place you can host and train your own AI models and datasets. 
 
 
 
