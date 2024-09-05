@@ -76,11 +76,11 @@ This is more for developers, but downloading and running your own LLMs locally a
 
 ### [Ollama](https://ollama.com/)
 
-Ollama is an open source project that serves as a powerful and user-friendly platform for running LLMs on your local computer. Ollama simplifies the process of downloading, installing, and interacting with a wide range of LLMs.
+Ollama is an open source project that serves as a powerful and user-friendly platform for running LLMs on your local computer. Ollama simplifies the process of downloading, installing, and interacting with a wide range of LLMs. See available models [here](https://github.com/ollama/ollama?tab=readme-ov-file#model-library).
 
 ### [LM Studio](https://lmstudio.ai/)
 
-Download and use a "ChatGPT-Like" interface for running your model locally.
+Download and use a "ChatGPT-Like" GUI interface to run your models locally. LM Studio makes it easy to download models, test them against each other, provides developer tools like running models on a local web server, etc. 
 
 
 ### Specific LLMs
