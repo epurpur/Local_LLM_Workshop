@@ -1,5 +1,5 @@
 ```
--Last updated 09/05/24
+-Last updated 09/24/24
 ```
 
 # UVA Library Workshop on Running Large Language Models on your local computer
@@ -99,9 +99,9 @@ Here are a few common ones that you might encounter.
 
 ##### Parameters
 
-You will encounter this term when looking at the available LLMs and wonder what they are. To start with an example, think of the parameters like settings on a camera. You can adjust the camera's exposure, brightness, contrast, etc to get the perfect photo. Similarly, in machine learning, the parameters are adjusted within the model to optimize its performance for a specific task. These adjustments help the model learn form data and make better predictions or decisions. The goal is the minimize the difference between the model's output and the actual correct outcome.  
+You will encounter this term when looking at the available LLMs and wonder what they are. To start with an example, think of the parameters like settings on a camera. You can adjust the camera's exposure, brightness, contrast, etc to get the perfect photo. Similarly, in machine learning, the parameters are adjusted within the model to optimize its performance for a specific task and direct the output/response accordingly. These adjustments help the model learn from data and make better predictions or decisions. The goal is the minimize the difference between the model's output and the actual correct outcome.  
 
-**Parameters** basically define the behavior of an AI model. In the LLM, parameters are specific values that are adjusted during training to optimize the model's performance. When referring to a LLM, we also typically refer to the number of parameters that model contains. For example, ChatGPT contains around 175 billion parameters. This would be a massive file to download and install locally. Local LLMs are typically slimmed down versions of LLMs. There can be several versions of an LLM with different numbers of training parameters. 
+When referring to a LLM, we also typically refer to the number of parameters that model contains. For example, ChatGPT contains around 175 billion parameters. This would be a massive file to download and install locally. Local LLMs are typically slimmed down versions of LLMs. There can be several versions of an LLM with different numbers of training parameters. 
 
 ### HuggingFace
 
