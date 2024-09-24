@@ -97,7 +97,8 @@ Here are a few common ones that you might encounter.
 
 * [gemma](https://ai.google.dev/gemma) - from Google. A family of lightweight models
 
-##### Parameters
+
+### Parameters
 
 You will encounter this term when looking at the available LLMs and wonder what they are. To start with an example, think of the parameters like settings on a camera. You can adjust the camera's exposure, brightness, contrast, etc to get the perfect photo. Similarly, in machine learning, the parameters are adjusted within the model to optimize its performance for a specific task and direct the output/response accordingly. These adjustments help the model learn from data and make better predictions or decisions. The goal is the minimize the difference between the model's output and the actual correct outcome.  
 
@@ -105,7 +106,11 @@ When referring to a LLM, we also typically refer to the number of parameters tha
 
 ### HuggingFace
 
-[Hugging Face](https://huggingface.co/) is an open source data science and machine learning platform. It acts like Github but for AI. It is a place you can host and train your own AI models and datasets. 
+[Hugging Face](https://huggingface.co/) is an open source data science and machine learning platform. It acts like Github but for AI. It is a place you can host and train your own AI models and datasets. A popular practice today is to take models that were trained on thousands of GPU hours and terabytes of data (such as LLama from Meta) and improve it further by adding new and refined data.
+
+#### Use model from Hugging Face in Ollama
+
+Yes, you can do it. [Here is a link to learn yourself](https://www.youtube.com/watch?v=fnvZJU5Fj3Q).
 
 
 
