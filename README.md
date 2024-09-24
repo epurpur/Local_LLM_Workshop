@@ -50,27 +50,27 @@ LLMs are composed of large files that contain the parameters and architecture de
 
 With services available like ChatGPT and Copilot, you might be wondering why would you want to run an LLM directly on your own machine?
 
-1. Privacy and Security
-
-By processing information locally, your information remains secure and private. According to their [terms of service](https://openai.com/policies/terms-of-use/), OpenAI claims they are not keeping and misusing your data. However, there are concerns about that. UVA licenses [UVA Copilot](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=8a0050d847fac610bb2b9c7b116d4317), an instance of Microsoft Copilot, which is probably safer to use. These concerns are negated if you run the LLM yourself!
-
-2. Offline Use
-
-At least with Ollama, if you have a scenario where the internet is not available, such as use in the field, you can still run your AI models because it is saved on your local machine. Similarly, performance tends to be pretty good which is not always the case for services like ChatGPT.
-
-3. Customizability
+1. Customizability
 
 When using a service like ChatGPT, Copilot, Bard, you **might** have a few options of what model to run. [Ollama](https://ollama.com/library), LM Studio, etc have a whole library of models to choose from, which can be used for different purposes. Some are general purpose models, some are specific to writing code, some are for creative purposes, some are for text generation, and more.
 
- 4. Free
+2. Privacy and Security
+
+By processing information locally, your information remains secure and private. According to their [terms of service](https://openai.com/policies/terms-of-use/), OpenAI claims they are not keeping and misusing your data. However, there are concerns about that. UVA licenses [UVA Copilot](https://virginia.service-now.com/its?id=itsweb_kb_article&sys_id=8a0050d847fac610bb2b9c7b116d4317), an instance of Microsoft Copilot, which is probably safer to use. These concerns are negated if you run the LLM yourself!
+
+3. Offline Use
+
+At least with Ollama, if you have a scenario where the internet is not available, such as use in the field, you can still run your AI models because it is saved on your local machine. Similarly, performance tends to be pretty good which is not always the case for services like ChatGPT.
+
+4. Free
 
 The tools we will cover today are free and open source. Paid services like ChatGPT, Copilot, or Bard usually have a free tier of service but there are limitations to that. No such limits exist if you run it yourself. 
 
- 5. Environmental Concerns
+5. Environmental Concerns
 
 As the [Washington Post](https://www.washingtonpost.com/business/2024/06/21/artificial-intelligence-nuclear-fusion-climate/) explains, a massive amount of energy associated with Generative AI is being used today. AI servers are typically housed in large data centers which consume vast amounts of electricity. Training large AI models demands substantial computational power, running for days or weeks. The electricity used by data centers often comes from non-renewable energy sources such as coal. Manufacturing the hardware used in electronics requires rare earth metals. And so on...
 
- 6. Local Development
+6. Local Development
 
 This is more for developers, but downloading and running your own LLMs locally allow you a way to run them on a local server and integrate into an application you are writing. 
 
