@@ -28,9 +28,6 @@
 | Python Web Scraping                                                 |       Wednesday 10/2  |  10:00 - 11:30am
 
 
-## Things to have before we begin
-
-
 # Disclaimer
 I am not an AI expert! We are all learning and navigating this confusing landscape together. 
 
