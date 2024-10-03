@@ -5,7 +5,7 @@
 # UVA Library Workshop on Running Large Language Models on your local computer
 
 ### Link to recording of this workshop
-
+- [View on PanOpto](https://uva.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=acb7e60e-9e12-43d4-9579-b1fe01353b66)
 - [View on Youtube](https://www.youtube.com/watch?v=LET8IvDe8_U)
 
 ## About Me
