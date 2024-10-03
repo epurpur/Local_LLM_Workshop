@@ -6,7 +6,7 @@
 
 ### Link to recording of this workshop
 
-
+- [View on Youtube](https://www.youtube.com/watch?v=LET8IvDe8_U)
 
 ## About Me
 * Erich Purpur: I am a Research Librarian for Science & Engineering in the Brown Science & Engineering Library. I've been at UVA since 2017.
