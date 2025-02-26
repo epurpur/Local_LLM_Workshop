@@ -60,7 +60,7 @@ At least with Ollama, if you have a scenario where the internet is not available
 
 4. Free
 
-The tools we will cover today are free and open source. Paid services like ChatGPT, Copilot, or Bard usually have a free tier of service but there are limitations to that. No such limits exist if you run it yourself. 
+The tools we will cover today are free and open source. Paid services like ChatGPT, Copilot, or Gemini usually have a free tier of service but there are limitations to that. No such limits exist if you run it yourself. 
 
 5. Environmental Concerns
 
