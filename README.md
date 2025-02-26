@@ -48,7 +48,7 @@ With services available like ChatGPT and Copilot, you might be wondering why wou
 
 1. Customizability
 
-When using a service like ChatGPT, Copilot, Bard, you **might** have a few options of what model to run. [Ollama](https://ollama.com/library), LM Studio, etc have a whole library of models to choose from, which can be used for different purposes. Some are general purpose models, some are specific to writing code, some are for creative purposes, some are for text generation, and more.
+When using a service like ChatGPT, Copilot, Gemini, you **might** have a few options of what model to run. [Ollama](https://ollama.com/library), LM Studio, etc have a whole library of models to choose from, which can be used for different purposes. Some are general purpose models, some are specific to writing code, some are for creative purposes, some are for text generation, and more.
 
 2. Privacy and Security
 
