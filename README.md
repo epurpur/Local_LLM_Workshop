@@ -16,15 +16,21 @@
 * [Research Data Services](https://data.library.virginia.edu/)
 * [Workshop Series](https://data.library.virginia.edu/training/)
 
-## Upcoming Workshops
+## Upcoming Python Workshops
 
 | Workshop | Date | Time |
 | ---- | ---- | ---- |
-| Intro to Python pt 1                                                |       Wednesday 1/22   |  10:00 - 11:30am
-| Intro to Python pt 2                                                |       Wednesday 1/29   |  10:00 - 11:30am
-| Python Programming w/ GenAI pt 1                                    |       Wednesday 2/5    |  10:00 - 11:30am
-| Python Programming w/ GenAI pt 2                                    |       Wednesday 2/12   |  10:00 - 11:30am
-| Using Large Language Models Locally                                 |       Wednesday 2/26   |  10:00 - 11:30am
+| Intro to Python pt 1                                                |       Tuesday 9/2   |  11:00 - 12:30am
+| Intro to Python pt 2                                                |       Tuesday 9/9   |  11:00 - 12:30am
+| Python Data Analysis & Visualization                                |       Tuesday 9/16  |  11:00 - 12:30am
+| AI Prompt Engineering for Python                                    |       Thursday 9/18 |  1:00 - 2:30pm
+
+## Upcoming AI Workshops
+| Workshop | Date | Time |
+| ---- | ---- | ---- |
+| Using Large Language Models Locally                                 |       Thursday 9/4   |  1:00 - 2:30pm
+| AI Prompt Engineering w/ CLEAR Framework                            |       Thursday 9/11  |  1:00 - 2:30pm
+| AI Prompt Engineering for Python                                    |       Thursday 9/18  |  1:00 - 2:30pm
 
 
 # Disclaimer
