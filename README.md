@@ -99,6 +99,20 @@ Here are a few common ones that you might encounter.
 
 * [gemma](https://ai.google.dev/gemma) - from Google. A family of lightweight models
 
+### Ollama Commands
+
+`ollama run [model name]`
+  - run model or install model that you don't have yet
+
+`ollama list`
+  - list available models
+
+`ollama rm [model name]`
+  - remove downloaded model
+
+`/bye`
+  - exit ollama
+
 
 ### Parameters
 
