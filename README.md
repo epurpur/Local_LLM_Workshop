@@ -16,7 +16,7 @@
 * [Research Data Services](https://data.library.virginia.edu/)
 * [Workshop Series](https://data.library.virginia.edu/training/)
 
-## Upcoming Python Workshops
+## Upcoming Workshops
 
 | Workshop | Date | Time |
 | ---- | ---- | ---- |
