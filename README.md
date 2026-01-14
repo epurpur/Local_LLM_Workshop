@@ -1,5 +1,5 @@
 ```
--Last updated 09/03/25
+-Last updated 01/14/26
 ```
 
 # UVA Library Workshop on Running Large Language Models on your local computer
@@ -20,17 +20,13 @@
 
 | Workshop | Date | Time |
 | ---- | ---- | ---- |
-| Intro to Python pt 1                                                |       Tuesday 9/2   |  11:00 - 12:30am
-| Intro to Python pt 2                                                |       Tuesday 9/9   |  11:00 - 12:30am
-| Python Data Analysis & Visualization                                |       Tuesday 9/16  |  11:00 - 12:30am
-| AI Prompt Engineering for Python                                    |       Thursday 9/18 |  1:00 - 2:30pm
+| Intro to Python pt 1                                                |       Tuesday 1/20   |  3:00 - 4:30pm
+| Intro to Python pt 2                                                |       Tuesday 1/27   |  3:00 - 4:30pm
+| Python & APIs                                                       |       Tuesday 2/3    |  3:00 - 4:30pm
+| Using Large Lanugage Models Locally                                 |       Tuesday 2/17   |  3:00 - 4:30pm
+| Python & Local LLMs                                                 |       Tuesday 2/24   |  3:00 - 4:30pm
 
-## Upcoming AI Workshops
-| Workshop | Date | Time |
-| ---- | ---- | ---- |
-| Using Large Language Models Locally                                 |       Thursday 9/4   |  1:00 - 2:30pm
-| AI Prompt Engineering w/ CLEAR Framework                            |       Thursday 9/11  |  1:00 - 2:30pm
-| AI Prompt Engineering for Python                                    |       Thursday 9/18  |  1:00 - 2:30pm
+
 
 
 # Disclaimer
